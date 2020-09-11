@@ -6,189 +6,364 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1, maximum-scale=1" />
 	<title> Soykot </title>
-	<script src="bower_components/jquery/dist/jquery.min.js" charset="utf-8"></script>
-	<link rel="stylesheet" href="bower_components/foundation-sites/dist/css/foundation.min.css">
+
+	<script src="./bower_components/jquery/dist/jquery.min.js" charset="utf-8"></script>
+	<link rel="stylesheet" href="./bower_components/foundation-sites/dist/css/foundation.min.css">
 	<link rel="stylesheet" href="">
-	<script src="bower_components/foundation-sites/dist/js/foundation.min.js" charset="utf-8"></script>
-	<script src="bower_components/normalize-css/normalize.css" charset="utf-8"></script>
-	<script src="bower_components/typed.js/dist/typed.min.js" charset="utf-8"></script>
-	<script src="bower_components/jqcloud2/dist/jqcloud.min.js" charset="utf-8"></script>
-	<link rel="stylesheet" href="bower_components/jqcloud2/dist/jqcloud.min.css">
-	<script src="bower_components/custombox/dist/custombox.min.js"></script>
-	<link href="bower_components/custombox/dist/custombox.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="./bower_components/foundation-sites/dist/js/foundation.min.js" charset="utf-8"></script>
+	<script src="./bower_components/normalize-css/normalize.css" charset="utf-8"></script>
+	<script src="./bower_components/typed.js/dist/typed.min.js" charset="utf-8"></script>
+	<script src="./bower_components/jqcloud2/dist/jqcloud.min.js" charset="utf-8"></script>
+	<link rel="./stylesheet" href="bower_components/jqcloud2/dist/jqcloud.min.css">
+	<script src="./bower_components/custombox/dist/custombox.min.js"></script>
+	<link href="./bower_components/custombox/dist/custombox.min.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500" rel="stylesheet">
-	<link rel="stylesheet" href="assets/fonts/foundation-icons/foundation-icons.css">
-	<link rel="stylesheet" href="assets/styles/styles.css">
+	<link rel="stylesheet" href="./assets/fonts/foundation-icons/foundation-icons.css">
+	<link rel="stylesheet" href="./assets/styles/styles.css">
+
 </head>
 
 <body>
-	<!-- Watch how to use it on YouTube -->
-	<!-- https://youtu.be/ddLuZXs8Uyw -->
 
-
-	<!-- Watch how to deploy it live -->
-	<!-- https://youtu.be/E1dqffpUlMA -->
 	<div class="wrapper">
 
+		<header>
 
-		<section id="about">
-			<div class="row">
-				<div class="small-12 large-8 large-offset-2 columns text-center">
+		</header>
+
+		<main>
+			<!-- Star about section -->
+			<section id="about">
+				<div class="blur-img">
+				</div>
+				<div class="introduction">
 					<div class="profile-photo" style="background-image: url(assets/images/my-img.jpg);">
 					</div>
-					<div class="details">
-						<h2>Hi, I'm Soykot. I...<br> <span id="writing-text"><span></h2>
+					<div class="sort-details">
+						<div class="details">
+							<h2>Hi, I'm Soykot. I...<br> <span id="writing-text"><span></h2>
+						</div>
+						<!-- <h4>Full Stack Developer</h4> -->
+						<div class="button">
+							<div class="cta l-b">
+								<a class="cta-b" href="./assets/data/Soykot-Resume.pdf" download="My Resume">Get
+									Resume</a>
+							</div>
+							<div class="cta r-b">
+								<a class="cta-b" href="#about-me">About Me</a>
+							</div>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="row">
-				<div class="small-12 column">
-					<div class="cta text-center">
-						<a class="my-button cta-button expand form-button"
-							href="https://mail.google.com/mail/u/0/#inbox?compose=XBcJlFTQXKKnLvDJBxXJnJmXvWBBcTFklgCkNCpQXRQHGbGGxzLpDThlLSWzJlHwCqQQTSKmjTbTCkZv">Get
-							In Touch</a>
+			</section>
+			<!-- End about section -->
+
+			<!-- Start about-me section  -->
+			<section id="about-me">
+				<div class="container-lg">
+					<div class="row">
+						<div class="section-heading special-about">
+							<h2>About Me</h2>
+							<div class="circle"></div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="about-details">
+							<div class="full-details">
+								<p class="text">Hello! I'm soykot, a Web Developer. I work with JavaScript. currently,
+									I'm a
+									student in Computer Science Engineering from Primeasia University. My graduation
+									will
+									finish
+									the year 2022. Now I am looking for an internship/fresher jobs to face the
+									challenges
+									where
+									I can use them
+									Knowledge and technical skills while benefiting the company
+									I have the opportunity to develop my own skills.
+								</p>
+								<div class="about-button">
+									<div class="cta al-b ">
+										<a class="cta-b"
+											href="https://github.com/soykot2910/Portfolio/tree/master/assets/Soykot-Resume.pdf"
+											download="My Resume" target="__blank">Get
+											Resume</a>
+									</div>
+									<div class="cta ar-b ">
+										<a class="cta-b" href="https://github.com/soykot2910" target="_blank">Visit
+											Github</a>
+									</div>
+								</div>
+							</div>
+							<div class="about-img">
+								<img class="my-img" src="./assets/images/my-img.jpg" alt="">
+							</div>
+						</div>
 					</div>
 				</div>
-				<div class="small-12 column">
-					<div class="my-arrow-div text-center">
-						<a href="https://github.com/soykot2910"><i class="fa fa-github fa-2x"></i></a>
-						<a href="https://facebook.com/soykot2910"><i class="fa fa-facebook fa-2x"></i></a>
-						<a href="https://instagram.com/soykot2910"><i class="fa fa-instagram fa-2x"></i></a>
+			</section>
+			<!-- End about-me section -->
+
+			<!-- Star skill section -->
+			<section id="skills">
+				<div class="container-lg">
+					<div class="section-heading">
+						<h2>My-Skills</h2>
+						<div class="circle"></div>
+					</div>
+					<div class="skill-wrapper">
+						<div class="row">
+							<div class="skill-card">
+								<div class="card-body">
+									<h3 class="card-title text-center">
+										<i class="fa fa-laptop fa-2x"></i>
+										<br>
+										Front-end
+									</h3>
+								</div>
+								<h5>Html5</h5>
+								<div class="line line1">90%</div>
+								<h5>Css3</h5>
+								<div class="line line2">80%</div>
+								<h5>JavaScript</h5>
+								<div class="line line3">70%</div>
+								<h5>Bootstrap</h5>
+								<div class="line line4">65%</div>
+								<h5>Reat</h5>
+								<div class="line line5">50%</div>
+							</div>
+							<div class="skill-card">
+								<div class="card-body">
+									<h3 class="card-title text-center">
+										<i class="fa fa-server fa-2x"></i>
+										<br>
+										Back-end
+									</h3>
+								</div>
+								<h5>NodeJS</h5>
+								<div class="line line5">50%</div>
+								<h5>Express</h5>
+								<div class="line line6">60%</div>
+								<h5>Mysql</h5>
+								<div class="line line6">60%</div>
+								<h5>Mongo</h5>
+								<div class="line line3">70%</div>
+								<h5>SQL</h5>
+								<div class="line line3">70%</div>
+							</div>
+							<div class="skill-card">
+								<div class="card-body">
+									<h3 class="card-title text-center">
+										<i class="fa fa-tools fa-2x"></i>
+										<br>
+										Tools
+									</h3>
+								</div>
+								<h5>Git/Github</h5>
+								<div class="line line2">80%</div>
+								<h5>Vscode/Sublime</h5>
+								<div class="line line2">80%</div>
+								<h5>Adobe Photoshop</h5>
+								<div class="line line6">60%</div>
+								<h5>Figma</h5>
+								<div class="line line6">60%</div>
+								<h5>Docker</h5>
+								<div class="line line5">50%</div>
+							</div>
+						</div>
 					</div>
 				</div>
-			</div>
+			</section>
+			<!-- End skill section -->
 
-		</section>
+			<!-- Star exprience section -->
+			<section id="exprience">
+				<div class="container-lg">
+					<div class="section-heading">
+						<h2>Exprience</h2>
+						<div class="circle "></div>
+					</div>
+					<div class="exprience-wrapper">
+						<div class="row ">
+							<div class="exprience-card">
+								<img src="assets/images/project1.png" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Google Maps Store Locator</h5>
+									<p class="text-secondary">This project is made using google maps API. In this
+										project, we can
+										show any store of locality and search for any store.</p>
 
-
-		<section id="experience">
-
-			<div class="row column">
-				<div class="small-12">
-					<h2 class="text-center">My Experience</h2>
-					<p class="text-center tag-line">Specialist in need. Generalist at heart.</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="small-12 medium-4 columns text-center experience-topics">
-					<i class="fi-laptop"></i>
-					<h3>Front-end</h3>
-					<ul>
-						<li>HTML5</li>
-						<li>CSS3</li>
-						<li>JavaScript</li>
-						<li>Bootstrap</li>
-						<li>Semantics-UI</li>
-						<li>Api | Ajax</li>
-					</ul>
-				</div>
-				<div class="small-12 medium-4 columns text-center experience-topics">
-					<i class="fi-database"></i>
-					<h3>Back-end</h3>
-					<ul>
-						<li>NodeJS</li>
-						<li>NPM</li>
-						<li>Express</li>
-						<li>SQL</li>
-						<li>Mongo</li>
-						<li>Restful Web Services</li>
-						<li>Flask | Python</li>
-					</ul>
-				</div>
-				<div class="small-12 medium-4 columns text-center experience-topics">
-					<i class="fi-star"></i>
-					<h3>Tools</h3>
-					<ul>
-						<li>VSCode</li>
-						<li>Sublime</li>
-						<li>Github</li>
-					</ul>
-				</div>
-			</div>
-
-		</section>
-
-		<section id="work">
-			<h2 class="text-center">Work</h2>
-			<div class="row">
-				<p class="text-center tag-line">Here are few of my former clients.</p>
-			</div>
-
-
-			<div class="row work-row">
-				<!-- odd -->
-				<div class="small-12 medium-6 medium-push-6 columns">
-					<img src="assets/images/project1.png" alt="">
-				</div>
-				<div class="small-12 medium-5 medium-pull-7 columns">
-					<div class="details details-ftm">
-						<h3>Curabitur Tech</h3>
-						<p class="platform">Web</p>
-						<p class="icons"><i class="fi-monitor"></i><i class="fi-tablet-portrait"></i><i
-								class="fi-mobile"></i></p>
-						<p>Curabitur Tech is id eros nisl. Cras id bibendum dolor. Quisque ultrices posuere ante sit
-							amet varius.</p>
-						<a class="my-button" target="_blank" href="http://google.com">Visit Website</a>
+									<a href="https://github.com/soykot2910/google-maps-store-locator" class="card-link">
+										<i class="fab fa-github fa-2x" aria-hidden="true"></i>
+									</a>
+									<a href="#" class="card-link">
+										<i class="fas fa-rocket fa-2x" aria-hidden="true"></i>
+									</a>
+								</div>
+							</div>
+							<div class="exprience-card">
+								<img src="assets/images/dailly-journal.png" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Daily Journal</h5>
+									<p class="text-secondary">This project is node.js based project.
+										Data are store using the MongoDB database. This project is deployed by using
+										Heroku
+									</p>
+									<a href="https://github.com/soykot2910/dailyJournal" class="card-link">
+										<i class="fab fa-github fa-2x" aria-hidden="true"></i>
+									</a>
+									<a href="https://mydailyjournal-web.herokuapp.com/login" class="card-link">
+										<i class="fas fa-rocket fa-2x" aria-hidden="true"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="exprience-card">
+								<img src="assets/images/Drum-kit.png" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Drum Kit</h5>
+									<p class="text-secondary">The drum kit is made by using different kinds of musical
+										instruments sound. By pressing the key shows on a screen we can hear the sounds.
+									</p>
+									<a href="https://github.com/soykot2910/Drum-kit" class="card-link">
+										<i class="fab fa-github fa-2x" aria-hidden="true"></i>
+									</a>
+									<a href="https://soykot2910.github.io/Drum-kit/" class="card-link">
+										<i class="fas fa-rocket fa-2x" aria-hidden="true"></i>
+									</a>
+								</div>
+							</div>
+							<div class="exprience-card">
+								<img src="assets/images/todo-list.PNG" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Todo-List</h5>
+									<p class="text-secondary">Nice design,simple app to keep in mind everyday things
+									</p>
+									<a href="https://github.com/soykot2910/todo-list" class="card-link">
+										<i class="fab fa-github fa-2x" aria-hidden="true"></i>
+									</a>
+									<a href="soykot2910.github.io/todo-list/" class="card-link">
+										<i class="fas fa-rocket fa-2x" aria-hidden="true"></i>
+									</a>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
-			</div>
+			</section>
+			<!-- End exprience -->
 
-			<div class="row work-row">
-				<!-- even -->
-				<div class="small-12 medium-6 columns">
-					<img src="assets/images/project2.png" alt="">
-				</div>
-				<div class="small-12 medium-5 medium-offset-1 columns">
-					<div class="details details-ftm">
-						<h3>AwesomeTechSmth</h3>
-						<p class="platform">Web</p>
-						<p class="icons"><i class="fi-monitor"></i><i class="fi-tablet-portrait"></i><i
-								class="fi-mobile"></i></p>
-						<p>GreatTechSmth is venenatis porta dolor sit amet vestibulum.</p>
-						<a class="my-button" target="_blank" href="http://google.com">Visit Website</a>
+			<!-- Start hobby -->
+			<section id="hobbies">
+				<div class="container-lg">
+					<div class="section-heading">
+						<h2>Hobbies</h2>
+						<div class="circle "></div>
+					</div>
+					<div class="hobbier-wrapper">
+						<div class="row">
+							<div class="hobby">
+								<div class="icon">
+									<i class="fas fa-laptop-code fa-4x"></i>
+									<p class="hobby-text">Coding</p>
+								</div>
+							</div>
+							<div class="hobby">
+								<div class="icon">
+									<i class="fas fa-volleyball-ball fa-4x"></i>
+									<p class="hobby-text">Sports</p>
+								</div>
+							</div>
+							<div class="hobby">
+								<div class="icon">
+									<i class="fas fa-globe-asia fa-4x"></i>
+									<p class="hobby-text">Travelling</p>
+								</div>
+							</div>
+							<div class="hobby">
+								<div class="icon">
+									<i class="fas fa-book-reader fa-4x"></i>
+									<p class="hobby-text">Reading</p>
+								</div>
+							</div>
+							<div class="hobby">
+								<div class="icon">
+									<i class="fas fa-film fa-4x"></i>
+									<p class="hobby-text">Cinema</p>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
-			</div>
+				<!-- End hobby -->
 
-			
+				<!-- Start contact -->
+			</section>
+			<section id="contact">
+				<div class="container-lg">
+					<div class="section-heading">
+						<h2>Contact</h2>
+						<div class="circle "></div>
+					</div>
+					<div class="row">
+						<div class="contact-details">
+							<h1>Wanna work with me?</h1>
+							<h4>I'm currently available for work.</h4>
+							<div class="cta ">
+								<a class="cta-b"
+									href="https://github.com/soykot2910/Portfolio/tree/master/assets/Soykot-Resume.pdf"
+									download="My Resume" target="__blank">Get
+									Resume</a>
 
-
-
-
-
-
-		</section>
-
-		
-
-		<section id="footer-cta">
-			<h2 class="text-center">Wanna work with me?</h2>
-			<p></p>
-			<div class="row text-center">
-				<div class="small-12 medium-8 medium-offset-2 columns">
-					<p class="text-center">I'm currently available for work.</p>
+							</div>
+							<div class="socal-icon">
+								<li>
+									<i class="fab fa-facebook fa-2x"></i>
+								</li>
+								<li>
+									<i class="fab fa-instagram fa-2x"></i>
+								</li>
+								<li>
+									<i class="fab fa-twitter fa-2x"></i>
+								</li>
+							</div>
+						</div>
+					</div>
 				</div>
-				<div class="small-12 columns" id="startButtonDiv">
-					<a class="my-button form-button" href="https://mail.google.com/mail/u/0/#inbox?compose=XBcJlFTQXKKnLvDJBxXJnJmXvWBBcTFklgCkNCpQXRQHGbGGxzLpDThlLSWzJlHwCqQQTSKmjTbTCkZv">Start Now</a>
-				</div>
-			</div>
-		</section>
+			</section>
+			<!-- End contact -->
+		</main>
 
+		<!-- Start footer -->
 		<footer id="footer">
-			<div class="row text-center">
-				<div class="small-12 medium-6 medium-offset-3 columns">
-					<p id="logo">MS</p>
-					<p id="copyright">Copyright &copy; 2020 | Md.Soykot</p>
-				</div>
+			<div class="row">
+				<div class="logo">ST</div>
+				<p>Copyright © 2020 | Md.Soykot</p>
 			</div>
 		</footer>
+		<!-- End footer -->
+
+		<!-- <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+		<script type="text/javascript">
+			$(document).on('click', 'ul li', function () {
+				$(this).addClass('active').siblings().removeClass('active');
+				$(this).toggleClass('card');
+			})
+
+		</script> -->
 
 
-
-	</div>
-	<script src="assets/scripts/app.js" charset="utf-8"></script>
+		<script src="./assets/scripts/app.js"></script>
 </body>
 
 </html>
+<!-- <ul class="skill-nav" >
+						<li class="active ">Web</li>
+						<li class="">Programming</li>
+						<li>Other</li>
+						<li>Tools</li>
+					</ul> -->
