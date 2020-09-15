@@ -64,6 +64,7 @@ h6 {
   letter-spacing: 0.3rem;
   margin: 50px auto;
   text-align: center;
+  margin-top: 80px;
 }
 .section-heading h2 {
   text-transform: uppercase;
@@ -120,6 +121,14 @@ h6 {
   text-align: center;
   /* background-color: #d2d4d8; */
   width: 100%;
+}
+.details h2 {
+  color: #646464;
+  font-size: 60px;
+}
+.details span {
+  font-weight: 300;
+  font-size: 0.7em;
 }
 
 #about .profile-photo {
@@ -278,10 +287,13 @@ h6 {
   margin-bottom: 20px;
   float: left;
   padding: 3px;
-  height: 500px;
+  height: auto;
   background-color: #d3cbcb;
   display: flex;
   flex-wrap: wrap;
+}
+.card-img-top {
+  height: 300px;
 }
 .card-body {
   padding: 18px;
@@ -314,7 +326,7 @@ h6 {
 }
 .hobby:hover {
   background-color: #cc4b37;
-  color: white;
+  /* color: white; */
 }
 .icon {
   position: relative;
@@ -345,11 +357,13 @@ h6 {
   font-size: 1.2em;
   padding: 0.1em 0.4em;
   color: #8a8a8a;
+  cursor: pointer;
 }
 .socal-icon li {
   float: left;
 }
 /* End contact */
+
 /* Start footer */
 #footer {
   margin: 20px auto;
@@ -380,18 +394,78 @@ h6 {
 /* End footer */
 
 /* media query */
-@media screen and (max-width: 600px) {
-  body {
-    font-size: 1.4em;
+@media screen and (max-width: 1200px) {
+  .skill-wrapper {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .skill-card {
+    text-align: left;
+    width: 45%;
+  }
+  .skill-card:last-child {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .about-img {
+    margin-top: 30px;
+  }
+  .exprience-card {
+    width: 100%;
+  }
+  .hobbier-wrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 740px) {
+  .about-button {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .hobby {
+    margin-left: 13%;
+  }
+}
+@media screen and (max-width: 640px) {
+  .details h2 {
+    font-size: 45px;
+  }
+  .details span {
+    font-size: 30px;
   }
   .special-about {
-    margin-top: 0;
+    margin-top: 150px;
+  }
+  .button {
+    width: 400px;
+    margin-left: 40px;
+  }
+  .l-b {
+    margin-left: -45px;
+  }
+  .r-b {
+    margin-right: 0px;
+  }
+  #about-me {
+    margin-top: 250px;
+  }
+  .about-button {
+    width: 400px;
+    margin: 0 auto;
   }
   .about-img {
     display: none;
   }
   .circle {
-    margin-top: 0px;
+    margin-top: 10px;
+  }
+  .section-heading h2::before,
+  .section-heading h2::after {
+    bottom: -112%;
   }
   .full-details {
     text-align: center;
@@ -399,21 +473,44 @@ h6 {
     width: 90%;
   }
   .al-b {
-    margin-left: 60px;
+    margin-left: 25px;
   }
   .skill-card,
-  .exprience-card{
+  .exprience-card {
     width: 100%;
-    padding:0 4%;
+    padding: 0 4%;
     height: auto;
   }
-  .hobby{
-    width: 45%;
+  .hobby {
+    width: 200px;
+    margin-left: 8%;
   }
   .socal-icon {
-    width: 142px;
+    width: 110px;
   }
-  .logo{
-    margin-left: 40%;
+  .logo {
+    margin-left: 44%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .section-heading h2::before,
+  .section-heading h2::after {
+    width: 16%;
+  }
+  .hobby {
+    width: 96%;
+    border-radius: 0;
+  }
+  .icon {
+    position: relative;
+    left: 40%;
+    top: 36%;
+  }
+  .socal-icon {
+    width: 102px;
+  }
+  .logo {
+    margin-left: 37%;
   }
 }
